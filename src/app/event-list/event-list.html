@@ -1,0 +1,13 @@
+<mat-card class="pb-4 pr-2 pl-2 w-1/2" *ngFor="let event of events">
+  <mat-card-header>
+    <div mat-card-avatar></div>
+    <mat-card-title>{{event.title}}</mat-card-title>
+    <mat-card-subtitle>{{event.segment}}</mat-card-subtitle>
+    <mat-card-subtitle>{{event.date}}</mat-card-subtitle>
+  </mat-card-header>
+  <img
+    mat-card-image
+    src="{{event.imgUrl}}"
+    alt="Promotion image for {{event.title}}"
+  />
+</mat-card>
