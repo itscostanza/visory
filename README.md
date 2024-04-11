@@ -13,7 +13,7 @@ The architecture of the application is as follows:
   - EventListComponent: A component that displays a list of events that match the selected date range and location.
   - SharedService: A service that provides shared data between the components. This allows the components to communicate the date range and location selected by the user.
 
-## Requirements
+## Setup
 
 Please ensure that you have the following requirements before proceeding:
 
@@ -22,6 +22,12 @@ Please ensure that you have the following requirements before proceeding:
 
 ```
 npm install -g @angular/cli
+```
+
+- Install the required packages by running the following command:
+
+```
+npm install
 ```
 
 - A Ticketmaster API key. You can obtain one from the Ticketmaster developer portal (https://developer.ticketmaster.com/api-explorer/).
